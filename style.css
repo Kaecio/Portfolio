@@ -46,6 +46,7 @@ section{
     text-decoration: none;
     text-transform: uppercase;
 }
+
 header nav {
     align-items: center;
     display: flex;
@@ -114,12 +115,15 @@ header nav ul li a{
     font-size: 24px;
     margin-bottom: 10px;
 }
+
 .w50{
     min-width: 50%;
 }
 .img{
+    margin-left: 100px;
     border-radius: 4px;
-    max-width: 100%;
+    max-width:50%;
+    border-radius: 50%;
 }
 
 .services{
@@ -127,8 +131,8 @@ header nav ul li a{
 }
 .servicesBx img{
     display: flex;
-    justify-content:center;
     height: 100px;
+    justify-content:center;
     width:100px;
 }
 .servicesBx h2{
@@ -144,17 +148,17 @@ header nav ul li a{
 }
 .services .content{
     display: flex;
-    justify-content: center;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .services .content .servicesBx{
-    padding: 40px 20px;
     background: #222;
     color: #fff;
-    max-width: 340px;
     margin:20px auto;
+    max-width: 340px;
+    padding: 40px 20px;
     text-align: center;
     transition:0.5s;
 }
@@ -162,3 +166,27 @@ header nav ul li a{
 .services .content .servicesBx:hover{
     background: #c5004c;
 }
+
+.workBx img{
+    display: flex;
+    height: 350px;
+    justify-content:center;
+    width: 350px;
+}
+
+.contentWork{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.workBx{
+    padding:10px 0px;
+}
+
+.txtBox h3 span{
+    color: rgb(138, 39, 39);
+    font-size:40px;
+}
+
