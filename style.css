@@ -129,6 +129,12 @@ header nav ul li a{
 .services{
     background: #111;
 }
+
+.servicesBx{
+    width:200px;
+    height: 200px;
+}
+
 .servicesBx img{
     display: flex;
     height: 100px;
