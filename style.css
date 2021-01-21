@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
     margin: 0 auto;
     padding: 0;
+    scroll-behavior: smooth;
 }
+
 section{
     padding: 100px;
 }
+
 .banner{
     align-items: center;
     background-color: rgb(31, 31, 31);
@@ -17,21 +22,25 @@ section{
     position: relative;
     background-position: right;
 }
+
 .banner h2{
     color: #fff;
     font-size: 3em;
     font-weight: 500;
     line-height: 1.5em;
 }
+
 .banner h2 span{
     font-size: 1.5em;
     font-weight: 600;
 }
+
 .banner h3{
     color: #fff;
     font-size: 1.5em;
     font-weight: 600;
 }
+
 .btn{
     background: #006dc5;
     border-radius: 5px;
@@ -55,10 +64,11 @@ header nav {
     padding: 40px 100px;
     position: fixed;
     top: 0;
-    transition: 0.4s;
+    transition: 0.5s;
     width: 100%;
     z-index: 1000;
 }
+
 .sticky{
     background: #fff;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
@@ -68,17 +78,21 @@ header nav {
 .sticky .logo{
     color: #111;
 }
+
 .sticky ul li a{
     color: #111;
 }
+
 header nav ul{
     display: flex;
     position: relative;
 }
+
 header nav ul li{
     position: relative;
     list-style: none;
 }
+
 header nav ul li a{
     color: #fff;
     display: inline-block;
@@ -86,6 +100,7 @@ header nav ul li a{
     position: relative;
     text-decoration: none;
 }
+
 .logo{
     color: #fff;
     font-size: 24px;
@@ -127,6 +142,7 @@ header nav ul li a{
 .contentBx{
     padding-right: 40px;
 }
+
 .contentBx h3{
     font-size: 24px;
     margin-bottom: 10px;
@@ -135,6 +151,7 @@ header nav ul li a{
 .w50{
     min-width: 50%;
 }
+
 .img{
     margin-left: 100px;
     border-radius: 4px;
@@ -157,17 +174,21 @@ header nav ul li a{
     justify-content:center;
     width:100px;
 }
+
 .servicesBx h2{
     text-align: center;
 }
 
 .heading h2{
     color: #fff;
+    font-size: 2.5em;
 }
 
 .heading p{
     color: #fff;
+    font-size: 1.5em;
 }
+
 .services .content{
     display: flex;
     flex-direction: row-reverse;
@@ -190,6 +211,8 @@ header nav ul li a{
 }
 
 .workBx img{
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     display: flex;
     height: 350px;
     justify-content:center;
