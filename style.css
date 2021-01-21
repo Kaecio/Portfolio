@@ -94,20 +94,36 @@ header nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .heading{
     color:#111 ;
     margin-bottom: 30px;
     text-align: center;
     width: 100%;
 }
+
 .heading h2{
     font-size: 30px;
     font-weight: 600;
 }
+
+.work .heading h2{
+    color:#111;
+    font-size:3em;
+}
+
+.work .heading p{
+    color:#111;
+    font-size:1.5em;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
 .content{
     display: flex;
     justify-content: space-between;
 }
+
 .contentBx{
     padding-right: 40px;
 }
@@ -197,6 +213,6 @@ header nav ul li a{
 }
 
 .contentBx.w50 h3{
-    color: rgb(66, 66, 66);
+    color: #111;
     font-size:30px;
 }
