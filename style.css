@@ -83,6 +83,10 @@ header nav {
     color: #111;
 }
 
+.sticky .selected-lang{
+    color: #111;
+}
+
 header nav ul{
     display: flex;
     position: relative;
@@ -108,6 +112,56 @@ header nav ul li a{
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.lang-menu ul{ 
+    border-radius: 5px;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lang-menu ul li{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.lang-menu ul li a{
+    padding: 5px 10px;
+    width:30px;
+}
+
+
+
+.lang-menu ul li a:hover{
+    color: #fff;
+}
+
+.eg{
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.br{
+    background-image: url(https://www.countryflags.io/br/flat/32.png);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.fr{
+    background-image: url(https://www.countryflags.io/fr/flat/32.png);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.selected-lang:before{
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+    content:'';
+    display: block;
+    height: 32px;
+    width: 32px;
 }
 
 .heading{

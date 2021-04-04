@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="index.js"></script>
   <title>Portfolio Fanderson</title>
 </head>
-
 <body>
   <header>
     <nav>
@@ -20,13 +18,26 @@
         <li><a href="#">Links</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+      <div class="lang-menu">
+        <ul>
+          <li>
+            <a href="#" language="english" class="eg"></a>
+          </li>
+          <li>
+            <a href="#" language="brazilian" class="br"></a>
+          </li>
+          <li>
+            <a href="#" language="french" class="fr"></a>
+         </li>
+      </ul>
+  </div>
     </nav>
   </header>
   <section class="banner" id="home">
     <div class="txtBox">
-      <h2>Hello, I'm <br><span> Fanderson Kaecio.</span></h2>
-      <h3><span>{</span> I'm a Developer Full Stack student <span>}</span>.</h3>
-      <a href="#about" class="btn">About Me</a>
+      <h2 class="title">Hello, I'm <br><span id="title-name"> Fanderson Kaécio.</span></h2>
+      <h3 class="subtitle"><span>{</span> I'm a Developer Full Stack student <span>}</span>.</h3>
+      <a href="#about" class="btnAboutMe">About Me</a>
     </div>
   </section>
   <section class="about" id="about">
@@ -35,13 +46,11 @@
     </div>
     <div class="content">
       <div class="contentBx w50">
-        <h3>I'm a Developer Full Stack student.</h3>
-        <p>
+        <h3 class="title-contex">I'm a Developer Full Stack student.</h3>
+        <p class="description">
           I am passionate about technology and games. My mission is to learn more every day,
           to improve everything around my life and the people I love.
           I am a student of Full Stack Development at Trybe school.
-          I am passionate about technology and games. My mission is to learn more every day,
-          to improve everything around my life and the people I love.
           Technology has entered my life and I hope that remaining with it remains of my life.
           I am a student of Full Stack Development at Trybe school.
           I am passionate about technology and games. My mission is to learn more every day,
@@ -56,8 +65,8 @@
   </section>
   <section class="services">
     <div class="heading white">
-      <h2>Main Tecnologys used</h2>
-      <p>Technologies used in my daily life.</p>
+      <h2 class="title-services">Main Tecnologys used</h2>
+      <p class="paragraph-services">Technologies used in my daily life.</p>
     </div>
     <div class="content">
       <div class="servicesBx">
@@ -84,8 +93,8 @@
   </section>
   <section class="work" id="work">
     <div class="heading">
-      <h2>Projects</h2>
-      <p>Some projects developed</p>
+      <h2 class="title-work">Projects</h2>
+      <p class="paragraph-work">Some projects developed</p>
     </div>
     <div class="contentWork">
       <div class="workBx">
@@ -112,6 +121,7 @@
     </div>
   </section>
   <!-- -->
+  <script src="index.js"></script>
 </body>
 
 </html>
