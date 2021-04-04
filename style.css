@@ -41,7 +41,22 @@ section{
     font-weight: 600;
 }
 
-.btn{
+.btnAboutMe{
+    background: #006dc5;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing:2px;
+    margin-top: 20px;
+    position: relative;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btnViewMore{
     background: #006dc5;
     border-radius: 5px;
     color: #fff;
