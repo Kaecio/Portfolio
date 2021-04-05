@@ -308,3 +308,32 @@ header nav ul li a{
     color: #111;
     font-size:30px;
 }
+
+.contact{
+    background:#111;
+}
+
+.contactInfo{
+    min-width: 40px;
+    padding: 50px 0;
+}
+
+.contactInfoBx{
+    position: relative;
+}
+
+.contactInfo h3{
+    color: #fff;
+}
+.contactInfoBx .box .text{
+    color: #fff;
+    font-size:16px;
+    font-weight:300;
+    padding-top: 20px;
+}
+
+.contactInfoBx .box .text h3{
+    color:#2196f3;
+    font-weight: 500;
+    margin-bottom: 0;
+}
