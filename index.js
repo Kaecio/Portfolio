@@ -18,6 +18,9 @@ const paragraphServices = document.querySelector('.paragraph-services');
 const titleWork = document.querySelector('.title-work');
 const paragraphWork = document.querySelector('.paragraph-work');
 const btnViewMore = document.querySelector('.btnViewMore');
+const titleContact = document.querySelector('.title-contact');
+const paragrapContat = document.querySelector('.paragrapContat');
+const titleContactInfo = document.querySelector('.title-contact-info');
 
 //----------------------------
 const br = document.createElement('BR');
@@ -45,6 +48,9 @@ link.forEach( el =>{
     titleWork.textContent = data[attr].titleWork;
     paragraphWork.textContent = data[attr].paragraphWork;
     btnViewMore.textContent = data[attr].btnViewMore;
+    titleContact.textContent = data[attr].titleContact;
+    paragrapContat.textContent = data[attr].paragrapContat;
+    titleContatcInfo.textContent = data[attr].titleContatcInfo;
     console.log(nameDev.textContent)
   })
 })
@@ -67,7 +73,10 @@ const data = {
     "paragraphServices":"Technologies used in my daily life.",
     "btnViewMore":"VIEW MORE",
     "titleWork":"Projects",
-    "paragraphWork":"Some projects developed"
+    "paragraphWork":"Some projects developed",
+    "titleContact":"Contact Us",
+    "paragrapContat":"For more information",
+    "titleContatcInfo":"Contact info"
 
   },
   "brazilian":
@@ -87,7 +96,10 @@ const data = {
     "paragraphServices":"Tecnologias utilizadas no meu dia a dia.",
     "btnViewMore":"VEJA MAIS",
     "titleWork":"Projetos",
-    "paragraphWork":"Alguns projetos desenvolvidos"
+    "paragraphWork":"Alguns projetos desenvolvidos",
+    "titleContact":"Contate nos",
+    "paragrapContat":"Para mais informações",
+    "titleContatcInfo":"Contact info"
   },
   "french":
   {
@@ -106,6 +118,9 @@ const data = {
     "paragraphServices":"Technologies utilisées dans ma vie quotidienne.",
     "btnViewMore":"VOIR PLUS",
     "titleWork":"Projets",
-    "paragraphWork":"Quelques projets developpé"
+    "paragraphWork":"Quelques projets developpé",
+    "titleContact":"Nous contacter",
+    "paragrapContat":"Pour plus d'informations",
+    "titleContatcInfo":"Contact info"
   },
 }

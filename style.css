@@ -332,6 +332,11 @@ header nav ul li a{
     padding-top: 20px;
 }
 
+.contactInfoBx a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .contactInfoBx .box .text h3{
     color:#2196f3;
     font-weight: 500;
