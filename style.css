@@ -30,6 +30,12 @@ section{
     line-height: 1.5em;
 }
 
+#title-name{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.5em;
+}
 .banner h2 span{
     font-size: 1.5em;
     font-weight: 600;
@@ -120,6 +126,11 @@ header nav ul li a{
     text-decoration: none;
 }
 
+.header nav ul li a:hover{
+    color:#2196f3;
+    position: relative;
+}
+
 .logo{
     color: #fff;
     font-size: 24px;
@@ -129,6 +140,10 @@ header nav ul li a{
     text-transform: uppercase;
 }
 
+.logo:hover{
+    color:#2196f3;
+    transition: 0.5s;
+}
 .lang-menu ul{ 
     border-radius: 5px;
     height: 35px;
@@ -146,8 +161,6 @@ header nav ul li a{
     padding: 5px 10px;
     width:30px;
 }
-
-
 
 .lang-menu ul li a:hover{
     color: #fff;

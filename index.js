@@ -8,7 +8,6 @@ window.addEventListener('scroll',()=>{
 const langEl = document.querySelector('.lang-menu');
 const link = document.querySelectorAll('a');
 const titleEl = document.querySelector('.title');
-const nameDev = document.getElementById('title-name');
 const subtitle = document.querySelector('.subtitle');
 const description = document.querySelector('.description');
 const btnAboutMe  = document.querySelector('.btnAboutMe');
@@ -20,21 +19,24 @@ const paragraphWork = document.querySelector('.paragraph-work');
 const btnViewMore = document.querySelector('.btnViewMore');
 const titleContact = document.querySelector('.title-contact');
 const paragrapContat = document.querySelector('.paragrapContat');
-const titleContactInfo = document.querySelector('.title-contact-info');
 
 //----------------------------
 const br = document.createElement('BR');
-const texto = document.createTextNode("EROS")
+const texto = document.createTextNode("Fanderson Kaecio.")
 const span = document.createElement('SPAN')
 //-----------------------------
 
 
-br.appendChild(texto);
-titleEl.appendChild(span);
-
-
 link.forEach( el =>{
   el.addEventListener('click',()=>{
+
+    //----------------------------
+    span.appendChild(texto)
+    br.appendChild(span);
+    document.querySelector('.title').appendChild(br)
+    console.log(br)
+    console.log(titleEl)
+    //----------------------------
 
     const attr = el.getAttribute('language');
     titleEl.textContent = data[attr].title;
@@ -44,14 +46,12 @@ link.forEach( el =>{
     description.textContent = data[attr].description;
     titleServices.textContent = data[attr].titleServices;
     paragraphServices.textContent = data[attr].paragraphServices;
-    nameDev.textContent = data[attr].fullNameDev;
     titleWork.textContent = data[attr].titleWork;
     paragraphWork.textContent = data[attr].paragraphWork;
     btnViewMore.textContent = data[attr].btnViewMore;
     titleContact.textContent = data[attr].titleContact;
     paragrapContat.textContent = data[attr].paragrapContat;
-    titleContatcInfo.textContent = data[attr].titleContatcInfo;
-    console.log(nameDev.textContent)
+
   })
 })
 
@@ -59,7 +59,6 @@ const data = {
   "english":
   {
     "title": "Hello, I'm",
-    "fullNameDev":"Fanderson Kaécio",
     "subTitle":"I'm a Developer Full Stack student",
     "btnAboutMe":"About Me",
     "titleContext":"I'm a Developer Full Stack student.",
@@ -76,13 +75,10 @@ const data = {
     "paragraphWork":"Some projects developed",
     "titleContact":"Contact Us",
     "paragrapContat":"For more information",
-    "titleContatcInfo":"Contact info"
-
   },
   "brazilian":
   {
     "title": "Olá, Eu sou",
-    "fullNameDev":"Fanderson Kaécio",
     "subTitle":"Eu sou estudante de Desenvolvimeto Full Stack",
     "btnAboutMe":"Sobre mim",
     "titleContext":"Eu sou estudante de Desenvolvimeto Full Stack",
@@ -99,12 +95,10 @@ const data = {
     "paragraphWork":"Alguns projetos desenvolvidos",
     "titleContact":"Contate nos",
     "paragrapContat":"Para mais informações",
-    "titleContatcInfo":"Contact info"
   },
   "french":
   {
     "title": "Salut, Je m'appelle",
-    "fullNameDev":"Fanderson Kaecio.",
     "subTitle": "Je suis etudiant de développeur Full Stack",
     "btnAboutMe":"À propos de moi",
     "titleContext":"Je suis etudiant de développeur Full Stack",
@@ -121,6 +115,5 @@ const data = {
     "paragraphWork":"Quelques projets developpé",
     "titleContact":"Nous contacter",
     "paragrapContat":"Pour plus d'informations",
-    "titleContatcInfo":"Contact info"
   },
 }
