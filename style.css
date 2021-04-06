@@ -126,9 +126,10 @@ header nav ul li a{
     text-decoration: none;
 }
 
-.header nav ul li a:hover{
+nav ul li a:hover{
     color:#2196f3;
     position: relative;
+    transition: 0.5s;
 }
 
 .logo{
@@ -144,6 +145,7 @@ header nav ul li a{
     color:#2196f3;
     transition: 0.5s;
 }
+
 .lang-menu ul{ 
     border-radius: 5px;
     height: 35px;
