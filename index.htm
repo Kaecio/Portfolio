@@ -7,16 +7,17 @@
   <link rel="stylesheet" href="style.css">
   <title>Portfolio Fanderson</title>
 </head>
+
 <body>
   <header>
     <nav>
       <a href="#" class="logo">Portfolio</a>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#technologies">technologies</a></li>
-        <li><a href="#work">Works</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+        <li><a href="#technologies" onclick="toggleMenu()">technologies</a></li>
+        <li><a href="#work" onclick="toggleMenu()">Works</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </ul>
       <div class="lang-menu">
         <ul>
@@ -28,15 +29,19 @@
           </li>
           <li>
             <a href="#" language="french" class="fr"></a>
-         </li>
-      </ul>
-  </div>
+          </li>
+        </ul>
+      </div>
+      <div class="toggle" onclick="toggleMenu()"></div>
     </nav>
   </header>
   <section class="banner" id="home">
     <div class="txtBox">
       <h2 class="title">Hello, I'm</h2> <br><span id="title-name"> Fanderson Kaécio.</span>
-      <h3 class="subtitle"><!--<span>{</span>--> I'm a Developer Full Stack student<!--<span>}</span>-->.</h3>
+      <h3 class="subtitle">
+        <!--<span>{</span>--> I'm a Developer Full Stack student
+        <!--<span>}</span>-->.
+      </h3>
       <a href="#about" class="btnAboutMe">About Me</a>
     </div>
   </section>
@@ -98,13 +103,15 @@
     </div>
     <div class="contentWork">
       <div class="workBx">
-        <a target="_blank" href="https://github.com/Kaecio/Conversor-de-moeda/"><img src="img/conversorMoedas.png" alt="Conversor-moedas"></a>
+        <a target="_blank" href="https://github.com/Kaecio/Conversor-de-moeda/"><img src="img/conversorMoedas.png"
+            alt="Conversor-moedas"></a>
       </div>
       <div class="workBx">
-        <a target="_blank" href="https://github.com/Kaecio/Covid-19/"><img src="img/covid-19.jpg" alt="Covid in the World"></a>
-      </div> 
+        <a target="_blank" href="https://github.com/Kaecio/Covid-19/"><img src="img/covid-19.jpg"
+            alt="Covid in the World"></a>
+      </div>
       <div class="workBx">
-        <img src="img/Workc.jpg" alt="Work">
+        <a target="_blank" href="https://github.com/Kaecio/Satellite-ISS"><img src="img/iss.jpg" alt="Work"></a>
       </div>
       <div class="workBx">
         <img src="img/Workd.jpg" alt="Work">
@@ -125,34 +132,38 @@
       <h2 class="title-contact">Contact Us</h2>
       <p class="paragrapContat">For more information</p>
     </div>
-      <div class="contactInfo">
-        <h3 class="title-contactInfo">Contact Info</h3>
-        <div class="contactInfoBx">
-      <div class="box">
-        <div class="icon"></div>
-        <div class="text">
-          <h3>Phone - Whatzapp</h3>
-          <p><a target="_blank" href="https://wa.me/5511981391941?text=ola,%20deixe a sua mensagem. Obrigado">(11) 98129-1941</a> / 
-             <a target="_blank" href="https://wa.me/5511981383120?text=ola,%20deixe a sua mensagem. Obrigado">(11) 98138-3120</a></p>
+    <div class="contactInfo">
+      <h3 class="title-contactInfo">Contact Info</h3>
+      <div class="contactInfoBx">
+        <div class="box">
+          <div class="icon"></div>
+          <div class="text">
+            <h3>Phone - Whatzapp</h3>
+            <p><a target="_blank" href="https://wa.me/5511981391941?text=ola,%20deixe a sua mensagem. Obrigado">(11)
+                98129-1941</a> /
+              <a target="_blank" href="https://wa.me/5511981383120?text=ola,%20deixe a sua mensagem. Obrigado">(11)
+                98138-3120</a>
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p><a href="mailto:fanderson.kaecio@gmail.com?Subject=Título%20da%20mensagem">fanderson.kaecio@gmail.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"></div>
+          <div class="text">
+            <h3>Linkedin</h3>
+            <a target="_blank" href="http://www.linkedin.com/in/fanderson-kaecio-valencio-6800b2104">
+              <p>https://www.linkedin.com/in/fanderson-kaecio-valencio-6800b2104</p>
+            </a>
+          </div>
         </div>
       </div>
-    <div class="box">
-      <div class="icon"></div>
-      <div class="text">
-        <h3>Email</h3>
-        <p><a href="mailto:fanderson.kaecio@gmail.com?Subject=Título%20da%20mensagem">fanderson.kaecio@gmail.com</a></p>
-      </div>
-    </div>
-    <div class="box">
-      <div class="icon"></div>
-      <div class="text">
-        <h3>Linkedin</h3>
-          <a target="_blank" href="http://www.linkedin.com/in/fanderson-kaecio-valencio-6800b2104">
-            <p>https://www.linkedin.com/in/fanderson-kaecio-valencio-6800b2104</p>
-          </a>
-      </div>
-    </div>
-  </div>
   </section>
   <!-- -->
   <script src="index.js"></script>

@@ -1,10 +1,4 @@
 
-
-window.addEventListener('scroll',()=>{
-  const nav =  document.querySelector('nav');
-  nav.classList.toggle('sticky',window.scrollY > 0)
-})
-
 const langEl = document.querySelector('.lang-menu');
 const link = document.querySelectorAll('a');
 const titleEl = document.querySelector('.title');
@@ -19,6 +13,20 @@ const paragraphWork = document.querySelector('.paragraph-work');
 const btnViewMore = document.querySelector('.btnViewMore');
 const titleContact = document.querySelector('.title-contact');
 const paragrapContat = document.querySelector('.paragrapContat');
+
+
+
+window.addEventListener('scroll',()=>{
+  const nav =  document.querySelector('nav');
+  nav.classList.toggle('sticky',window.scrollY > 0)
+})
+
+const toggleMenu = ()=>{
+  const menuToggle = document.querySelector('.toggle');
+  const menu = document.querySelector('.menu');
+  menu.classList.toggle('active');
+  menuToggle.classList.toggle('active');
+}
 
 //----------------------------
 const br = document.createElement('BR');
