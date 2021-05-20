@@ -2,6 +2,7 @@
 const langEl = document.querySelector('.lang-menu');
 const link = document.querySelectorAll('a');
 const titleEl = document.querySelector('.title');
+console.log(titleEl)
 const subtitle = document.querySelector('.subtitle');
 const description = document.querySelector('.description');
 const btnAboutMe  = document.querySelector('.btnAboutMe');
@@ -13,8 +14,7 @@ const paragraphWork = document.querySelector('.paragraph-work');
 const btnViewMore = document.querySelector('.btnViewMore');
 const titleContact = document.querySelector('.title-contact');
 const paragrapContat = document.querySelector('.paragrapContat');
-
-
+const curriculum = document.querySelector('.curriculum');
 
 window.addEventListener('scroll',()=>{
   const nav =  document.querySelector('nav');
@@ -42,8 +42,6 @@ link.forEach( el =>{
     span.appendChild(texto)
     br.appendChild(span);
     document.querySelector('.title').appendChild(br)
-    console.log(br)
-    console.log(titleEl)
     //----------------------------
 
     const attr = el.getAttribute('language');
