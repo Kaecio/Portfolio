@@ -21,6 +21,7 @@ window.addEventListener('scroll',()=>{
   nav.classList.toggle('sticky',window.scrollY > 0)
 })
 
+
 const toggleMenu = ()=>{
   const menuToggle = document.querySelector('.toggle');
   const menu = document.querySelector('.menu');
