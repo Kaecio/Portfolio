@@ -2,7 +2,6 @@
 const langEl = document.querySelector('.lang-menu');
 const link = document.querySelectorAll('a');
 const titleEl = document.querySelector('.title');
-console.log(titleEl)
 const subtitle = document.querySelector('.subtitle');
 const description = document.querySelector('.description');
 const btnAboutMe  = document.querySelector('.btnAboutMe');
@@ -21,6 +20,10 @@ window.addEventListener('scroll',()=>{
   nav.classList.toggle('sticky',window.scrollY > 0)
 })
 
+curriculum.addEventListener('click',(e)=>{
+  e.preventDefault()
+  window.location.href = "https://github.com/Kaecio/Portfolio/tree/main/files/Curriculo-Fanderson.pdf";
+})
 
 const toggleMenu = ()=>{
   const menuToggle = document.querySelector('.toggle');
