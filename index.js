@@ -20,10 +20,10 @@ window.addEventListener('scroll',()=>{
   nav.classList.toggle('sticky',window.scrollY > 0)
 })
 
-curriculum.addEventListener('click',(e)=>{
-  e.preventDefault()
-  window.location.href = "https://github.com/Kaecio/Portfolio/tree/main/files/Curriculo-Fanderson.pdf";
-})
+// curriculum.addEventListener('click',(e)=>{
+//   e.preventDefault()
+//   window.location.href = "https://github.com/Kaecio/Portfolio/tree/main/files/Curriculo-Fanderson.pdf";
+// })
 
 const toggleMenu = ()=>{
   const menuToggle = document.querySelector('.toggle');
