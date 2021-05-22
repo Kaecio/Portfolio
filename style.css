@@ -47,6 +47,25 @@ section{
     font-weight: 600;
 }
 
+.banner h3::after{
+    animation: pisca .7s infinite;
+    content: '|';
+    color: rgb(218, 218, 218);
+    font-size: 1.5rem;
+    margin-left: 2px;
+    opacity: 1;
+}
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+}
+
 .btnAboutMe{
     background: #006dc5;
     border-radius: 5px;

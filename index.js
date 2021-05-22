@@ -15,15 +15,23 @@ const titleContact = document.querySelector('.title-contact');
 const paragrapContat = document.querySelector('.paragrapContat');
 const curriculum = document.querySelector('.curriculum');
 
-window.addEventListener('scroll',()=>{
-  const nav =  document.querySelector('nav');
-  nav.classList.toggle('sticky',window.scrollY > 0)
-})
+const letterMachine = (el) => {
+  const text = el.innerHTML.split('');
+  el.innerHTML =''
+  text.forEach((letra, index) => {
+    setTimeout(() =>{
+      el.innerHTML += letra
+    }, 80 * index);
+  })
+}
 
-// curriculum.addEventListener('click',(e)=>{
-//   e.preventDefault()
-//   window.location.href = "https://github.com/Kaecio/Portfolio/tree/main/files/Curriculo-Fanderson.pdf";
-// })
+setInterval(() => letterMachine(subtitle), 6000);
+  
+window.addEventListener('scroll',()=>{
+  const nav = document.querySelector('nav');
+  nav.classList.toggle('sticky',window.scrollY > 0)
+  
+})
 
 const toggleMenu = ()=>{
   const menuToggle = document.querySelector('.toggle');
@@ -33,21 +41,21 @@ const toggleMenu = ()=>{
 }
 
 //----------------------------
-const br = document.createElement('BR');
-const texto = document.createTextNode("Fanderson Kaecio.")
-const span = document.createElement('SPAN')
+const br = document.createElement('br');
+const texto = document.createTextNode("Fanderson Kaecio")
+const span = document.createElement('span')
 //-----------------------------
 
 
 link.forEach( el =>{
   el.addEventListener('click',()=>{
-
+    clearInterval(setInterval(() => letterMachine(subtitle)), console.log('parou'))
     //----------------------------
     span.appendChild(texto)
     br.appendChild(span);
     document.querySelector('.title').appendChild(br)
     //----------------------------
-
+    
     const attr = el.getAttribute('language');
     titleEl.textContent = data[attr].title;
     subtitle.textContent = data[attr].subTitle;
@@ -64,6 +72,8 @@ link.forEach( el =>{
 
   })
 })
+
+setInterval(() => letterMachine(subtitle), 6000);
 
 const data = {
   "english":
@@ -91,7 +101,7 @@ const data = {
     "title": "Olá, Eu sou",
     "subTitle":"Eu sou estudante de Desenvolvimeto Full Stack",
     "btnAboutMe":"Sobre mim",
-    "titleContext":"Eu sou estudante de Desenvolvimeto Full Stack",
+    "titleContext":"Eu sou estudante de Desenvolvimento Full Stack",
     "description":`Sou apaixonado por tecnologia desde jovem. 
     Eu faço os meus projetos e os meus trabalhos com muito amor. 
     Eu sou estudante de desenvolvimento Web na escola Trybe de tecnologia, eu pude aprender cada dia mais sobre a 
