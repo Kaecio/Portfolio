@@ -502,14 +502,14 @@ nav ul li a:hover{
     background-color: rgba(0, 0, 0, 0);
     border-radius: 2px;
     height: 25px;
-    margin-top: -45px;
+    margin-top: -40px;
     margin-left: -55px;
     position: absolute;
     width:200px;
 }
 
 .textoTeste{
-    color: rgb(255, 255, 255);
+    color: #2196f3;
     font-size: 12px;
     text-align: center;
 }
