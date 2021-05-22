@@ -40,22 +40,19 @@ const toggleMenu = ()=>{
   menuToggle.classList.toggle('active');
 }
 
-//----------------------------
 const br = document.createElement('br');
 const texto = document.createTextNode("Fanderson Kaecio")
 const span = document.createElement('span')
-//-----------------------------
-
 
 link.forEach( el =>{
   el.addEventListener('click',()=>{
+    subtitle.textContent = ''
     clearInterval(setInterval(() => letterMachine(subtitle)), console.log('parou'))
-    //----------------------------
+    
     span.appendChild(texto)
     br.appendChild(span);
     document.querySelector('.title').appendChild(br)
-    //----------------------------
-    
+
     const attr = el.getAttribute('language');
     titleEl.textContent = data[attr].title;
     subtitle.textContent = data[attr].subTitle;
@@ -99,7 +96,7 @@ const data = {
   "brazilian":
   {
     "title": "Olá, Eu sou",
-    "subTitle":"Eu sou estudante de Desenvolvimeto Full Stack",
+    "subTitle":"Eu sou estudante de Desenvolvimento Full Stack",
     "btnAboutMe":"Sobre mim",
     "titleContext":"Eu sou estudante de Desenvolvimento Full Stack",
     "description":`Sou apaixonado por tecnologia desde jovem. 
