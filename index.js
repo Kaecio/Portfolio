@@ -103,7 +103,7 @@ const data = {
     "btnViewMore":"VIEW MORE",
     "titleWork":"Projects",
     "paragraphWork":"Some projects developed",
-    "titleContact":"Contact Us",
+    "titleContact":"Contact us",
     "paragrapContat":"For more information",
   },
   "brazilian":
