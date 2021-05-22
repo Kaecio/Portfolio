@@ -14,6 +14,19 @@ const btnViewMore = document.querySelector('.btnViewMore');
 const titleContact = document.querySelector('.title-contact');
 const paragrapContat = document.querySelector('.paragrapContat');
 const curriculum = document.querySelector('.curriculum');
+console.log(curriculum)
+
+
+curriculum.addEventListener('mouseover', () => {
+   const teste = document.createElement('div');
+   teste.classList = 'msgCurriculum textoTeste';
+   teste.style.display = 'block';
+   teste.innerHTML = 'Download';
+   curriculum.appendChild(teste)
+   curriculum.addEventListener('mouseout', () => {
+     teste.style.display = 'none';
+   })
+})
 
 const letterMachine = (el) => {
   const text = el.innerHTML.split('');

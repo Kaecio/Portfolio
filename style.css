@@ -494,3 +494,22 @@ nav ul li a:hover{
     color: #fff;
     cursor: pointer;
 }
+
+.msgCurriculum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    height: 25px;
+    margin-top: -45px;
+    margin-left: -55px;
+    position: absolute;
+    width:200px;
+}
+
+.textoTeste{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+}
