@@ -112,12 +112,17 @@ const data = {
     "subTitle":"Eu sou Quality Assurance na Accenture",
     "btnAboutMe":"Sobre mim",
     "titleContext":"Eu sou Quality Assurance na Accenture",
-    "description":`Sou apaixonado por tecnologia desde jovem. 
-    Eu faço os meus projetos e os meus trabalhos com muito amor. 
-    Eu sou estudante de desenvolvimento Web na escola Trybe de tecnologia, eu pude aprender cada dia mais sobre a 
-    necessidade do mercado nos dias atuais por isso eu venho estudando e me aprofundando a cada dia. Tenho 36 anos, 
-    dois filhos lindos e uma família quem eu os amo. Não sou o dono da verdade e nem sei o que me espera no futuro, 
-    mas uma coisa é certa, a paixão pela minha famía e pela tecnologia estarão comigo para sempre.`,
+    "description":`Tenho 37 anos, dois filhos lindos e uma família quem eu amo.
+    Sou apaixonado por tecnologia desde sempre.
+    Sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Nove de Julho – 2014.  
+    
+    Comecei a minha carreira como Quality Assurance na Concrete Solutions em 2021. Hoje, sou consultor no maior banco da América Latina e atuo na parte de cartões de créditos. Aprendo muito no parceiro e ainda continuo, trabalhar algo que envolve números, cifras e clientes é muito desafiador, mas, acima de tudo, uma grande experiência para mim.
+    
+       Adoro questionar, acompanhar os projetos desde o seu planejamento, na sua construção, na entrega e claro, no seu ciclo de vida sempre fazendo testes como teste de caixa preta, teste de caixa branca, end to end, deste de regressão, testes automatizados entre outros.
+    
+     Em janeiro de 2022 a Concrete teve a sua junção definitiva com a Accenture do Brasil.
+        Hoje, faço parte da Accenture como Quality Assurance, mas, continuo realizando a mesma atividade que fazia antes.
+    Eu faço os meus projetos e o meu trabalho, eu faço com muito amor. .`,
     "titleServices":"Principais tecnologias usadas.",
     "paragraphServices":"Tecnologias utilizadas no meu dia a dia.",
     "btnViewMore":"VEJA MAIS",
