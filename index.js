@@ -89,9 +89,9 @@ const data = {
   "english":
   {
     "title": "Hello, I'm",
-    "subTitle":"I'm a Developer Full Stack student",
+    "subTitle":"I am Quality Assurance at Accenture",
     "btnAboutMe":"About Me",
-    "titleContext":"I'm a Developer Full Stack student.",
+    "titleContext":"I am Quality Assurance at Accenture.",
     "description":`I have been passionate about technology since I was young. 
     I do my projects and my works with a lot of love. I am a student of Web development at the Trybe school of technology, 
     I was able to learn more and more about the needs of the market today so 
@@ -104,14 +104,14 @@ const data = {
     "titleWork":"Projects",
     "paragraphWork":"Some projects developed",
     "titleContact":"Contact us",
-    "paragrapContat":"For more information",
+    "paragrapContat":"For more informations",
   },
   "brazilian":
   {
     "title": "Olá, Eu sou",
-    "subTitle":"Eu sou estudante de Desenvolvimento Full Stack",
+    "subTitle":"Eu sou Quality Assurance na Accenture",
     "btnAboutMe":"Sobre mim",
-    "titleContext":"Eu sou estudante de Desenvolvimento Full Stack",
+    "titleContext":"Eu sou Quality Assurance na Accenture",
     "description":`Sou apaixonado por tecnologia desde jovem. 
     Eu faço os meus projetos e os meus trabalhos com muito amor. 
     Eu sou estudante de desenvolvimento Web na escola Trybe de tecnologia, eu pude aprender cada dia mais sobre a 
@@ -129,9 +129,9 @@ const data = {
   "french":
   {
     "title": "Salut, Je m'appelle",
-    "subTitle": "Je suis etudiant de développeur Full Stack",
+    "subTitle": "Je suis Quality Assurance chez Accenture",
     "btnAboutMe":"À propos de moi",
-    "titleContext":"Je suis etudiant de développeur Full Stack",
+    "titleContext":"Je suis Quality Assurance chez Accenture",
     "description":`Je suis passionné de technologie depuis mon plus jeune âge.
     Je fais mes projets et mes œuvres avec beaucoup d'amour.
     Je suis étudiant en développement Web à l'école de technologie Trybe, j'ai pu en apprendre de plus en plus sur le
