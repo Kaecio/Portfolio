@@ -13,7 +13,8 @@ const btnViewMore = document.querySelector('.btnViewMore');
 const titleContact = document.querySelector('.title-contact');
 const paragrapContat = document.querySelector('.paragrapContat');
 const curriculum = document.querySelector('.curriculum');
-
+const date = new Date()
+const year = date.getFullYear() - 1984
 
 curriculum.addEventListener('mouseover', () => {
   const teste = document.createElement('div');
@@ -90,7 +91,7 @@ const data = {
     "subTitle": "Quality Assurance at Accenture",
     "btnAboutMe": "About Me",
     "titleContext": "I am Quality Assurance at Accenture.",
-    "description": `I am 37 years old, two beautiful children and a family that I love.
+    "description": `I am ${year} years old, two beautiful children and a family that I love.
     I've been passionate about technology ever since.
     I have a degree in Systems Analysis and Development from Universidade Nove de Julho – 2014.
     I started my career as Quality Assurance at Concrete Solutions in 2021. Today, I am a consultant at the largest bank in Latin America and I work in the credit card sector. I learn a lot from the partner and I still continue, working something that involves numbers, figures and customers is very challenging, but, above all, a great experience for me.
@@ -111,7 +112,7 @@ const data = {
     "subTitle": "Quality Assurance na Accenture",
     "btnAboutMe": "Sobre mim",
     "titleContext": "Eu sou Quality Assurance na Accenture",
-    "description": `Tenho 37 anos, dois filhos lindos e uma família quem eu amo.
+    "description": `Tenho ${year} anos, dois filhos lindos e uma família quem eu amo.
     Sou apaixonado por tecnologia desde sempre.
     Sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Nove de Julho – 2014.  
     Comecei a minha carreira como Quality Assurance na Concrete Solutions em 2021. Hoje, sou consultor no maior banco da América Latina e atuo na parte de cartões de créditos. Aprendo muito no parceiro e ainda continuo, trabalhar algo que envolve números, cifras e clientes é muito desafiador, mas, acima de tudo, uma grande experiência para mim.
@@ -132,7 +133,7 @@ const data = {
     "subTitle": "Je suis Quality Assurance chez Accenture",
     "btnAboutMe": "À propos de moi",
     "titleContext": "Je suis Quality Assurance chez Accenture",
-    "description": `J'ai 37 ans, deux beaux enfants et une famille que j'aime.
+    "description": `J'ai ${year} ans, deux beaux enfants et une famille que j'aime.
     Depuis, je suis passionné par la technologie.
     J'ai un diplôme en analyse et développement de systèmes de l'Université Nove de Julho - 2014.
     J'ai commencé ma carrière en tant qu'assurance qualité chez Concrete Solutions en 2021. Aujourd'hui, je suis consultant dans la plus grande banque d'Amérique latine et je travaille dans le secteur des cartes de crédit. J'apprends beaucoup du partenaire et je continue toujours, travailler quelque chose qui implique des chiffres, des chiffres et des clients est très difficile, mais, surtout, une belle expérience pour moi.
