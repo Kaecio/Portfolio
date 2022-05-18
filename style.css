@@ -36,6 +36,7 @@ section{
     font-weight: 500;
     line-height: 1.5em;
 }
+
 .banner h2 span{
     font-size: 1.5em;
     font-weight: 600;
@@ -119,7 +120,7 @@ header nav {
     justify-content: space-between;
     padding: 40px 100px;
     position: fixed;
-    top: 0;
+    top: 0px;
     transition: 0.5s;
     width: 100%;
     z-index: 1000;
@@ -204,19 +205,19 @@ nav ul li a:hover{
 }
 
 .eg{
-    background-image: url(https://www.countryflags.io/us/flat/32.png);
+    /*background-image: url(https://www.countryflags.io/us/flat/32.png);*/
     background-repeat: no-repeat;
     height: 100%;
 }
 
 .br{
-    background-image: url(https://www.countryflags.io/br/flat/32.png);
+    /*background-image: url(https://www.countryflags.io/br/flat/32.png);*/
     background-repeat: no-repeat;
     height: 100%;
 }
 
 .fr{
-    background-image: url(https://www.countryflags.io/fr/flat/32.png);
+   /* background-image: url(https://www.countryflags.io/fr/flat/32.png);*/
     background-repeat: no-repeat;
     height: 100%;
 }
@@ -349,6 +350,9 @@ nav ul li a:hover{
     padding:10px 0px;
 }
 
+.txtBox {
+    width: 600px;
+}
 .txtBox h3 span{
     color: #8a2727;
     font-size:30px;
@@ -492,7 +496,7 @@ nav ul li a:hover{
 
 .curriculum{
     color: #fff;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 .msgCurriculum{
